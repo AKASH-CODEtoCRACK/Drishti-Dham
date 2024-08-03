@@ -27,7 +27,11 @@ const teamMembers = [
 		name: "Muskan",
 		designation: "Front End Web Developer",
 	},
-	
+	{
+		img:"TeamImages/Niketa.jpg",
+		name:"Niketa Kumari",
+		designation:"Web Developer",
+	}
 	
 	
 ];
