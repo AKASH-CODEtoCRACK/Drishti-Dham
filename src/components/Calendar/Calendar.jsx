@@ -61,8 +61,8 @@ function Calendar() {
 
   return (
     <div className="p-8 bg-gray-50 min-h-screen flex flex-col items-center">
-      <h1 className="text-4xl font-extrabold mb-6 text-blue-700">Indian Festivals Calendar</h1>
-      <div className="mb-6">
+      <h1 className="text-4xl font-extrabold mb-6 text-red-950">Indian Festivals Calendar</h1>
+      {/* <div className="mb-6">
         <label htmlFor="year" className="block text-lg font-medium mb-2 text-gray-700">Select Year:</label>
         <input
           id="year"
@@ -108,8 +108,8 @@ function Calendar() {
             })}
           </div>
         )}
-      </div>
-     <img src="/images/calender.webp" alt="img"></img>
+      </div> */}
+      <img src="/images/calendarevents.jpg" alt="img"></img>
     </div>
   );
 }
