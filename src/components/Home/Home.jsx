@@ -9,6 +9,7 @@ import AutoSliderCarousel from "./AutoSliderCarousel";
 import Carousal from "./Carousal";
 import Separator from "../Separator/separator";
 import ChaarDham from "../ChaarDham/ChaarDham";
+// import Map from "../Map/Map";
 
 
 export default function Home() {
@@ -18,6 +19,8 @@ export default function Home() {
     <Separator/>
     <ChaarDham/>
     <TempleSlider/>
+
+    {/* <Map/> */}
   
 
 

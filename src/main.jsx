@@ -15,6 +15,7 @@ import Profile from './pages/Profile.jsx'
 import TempleInfo from './components/TempleInfo/TempleInfo.jsx'
 import App from './App.jsx'
 import Calendar from './components/Calendar/Calendar.jsx'
+import Map from './components/Map/Map.jsx'
 
 
 const router= createBrowserRouter([
@@ -46,22 +47,26 @@ const router= createBrowserRouter([
         path:'signup',
         element:<Register/>
       },
+      // {
+      //   path:'profile',
+      //   element:<Profile/>
+      // },
       {
-        path:'profile',
-        element:<Profile/>
+        path:'Map',
+        element:<Map/>
       },
       {
         path:'calendar',
         element:<Calendar/>
       },
-      {
-        path:'user/:user_Id',
-        element:<User/>
-      },
-      {
-        path:'github',
-        element:<Github/>
-      },
+      // {
+      //   path:'user/:user_Id',
+      //   element:<User/>
+      // },
+      // {
+      //   path:'github',
+      //   element:<Github/>
+      // },
       {
         path:'temple/:templeId',
         element:<TempleInfo/>

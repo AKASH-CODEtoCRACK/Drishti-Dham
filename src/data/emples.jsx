@@ -1,12 +1,4 @@
-import React from 'react';
-import Slider from 'react-slick';
-import TempleCard from './TempleCard';
-// import { temples } from '../data/temples'; // Import the temple data
-
- // Define the data for the 12 Jyotirlingas
-// Define the data for the 12 Jyotirlingas
-// src/data/temples.js
-export const temples = [
+ const temples = [
   {
     name: "Somnath",
     location: "Prabhas Patan, Saurashtra, Gujarat",
@@ -76,7 +68,7 @@ export const temples = [
     prashad: "Ladoo, Rice",
     establishment: "Sixth Jyotirlinga",
     keyInformation: "Baidyanath is known for its ancient temples and is considered a significant pilgrimage site.",
-    image: "/images/vaidyannath.png", // Image path
+    image: "/images/baidyanath.png", // Image path
     coordinates: { lat: 24.4811, lng: 86.6995 } // Latitude and Longitude
   },
   {
@@ -87,8 +79,8 @@ export const temples = [
     importantDates: ["Maha Shivaratri", "Ganga Aarti"],
     prashad: "Peda, Milk",
     establishment: "Seventh Jyotirlinga",
-    keyInformation: "kashi Vishwanath is located in Varanasi, one of the oldest cities in the world.",
-    image: "/images/kashivish.jpeg", // Image path
+    keyInformation: "Kashi Vishwanath is located in Varanasi, one of the oldest cities in the world.",
+    image: "/images/kashi-vishwanath.png", // Image path
     coordinates: { lat: 25.3109, lng: 83.0104 } // Latitude and Longitude
   },
   {
@@ -136,7 +128,7 @@ export const temples = [
     prashad: "Ladoo, Milk",
     establishment: "Eleventh Jyotirlinga",
     keyInformation: "Aundha Nagnath is situated in Maharashtra and is a revered Jyotirlinga shrine.",
-    image: "/images/AundhaNagnath.jpeg", // Image path
+    image: "/images/aundha-nagnath.png", // Image path
     coordinates: { lat: 19.5820, lng: 77.1756 } // Latitude and Longitude
   },
   {
@@ -150,51 +142,55 @@ export const temples = [
     keyInformation: "Triambakeshwar is located near Nashik and is a significant pilgrimage site during Kumbh Mela.",
     image: "/images/triambakeshwar.png", // Image path
     coordinates: { lat: 19.9434, lng: 73.5255 } // Latitude and Longitude
-  }
+  },
+  {
+  name: "Badrinath",
+  location: "Badrinath, Uttarakhand",
+  openingTiming: "4:30 AM - 9:00 PM",
+  closingTiming: "N/A",
+  importantDates: ["Badrinath Yatra", "Maha Shivaratri"],
+  prashad: "Kesar Bhog, Tulsi",
+  establishment: "First Char Dham",
+  keyInformation: "Badrinath is one of the most important pilgrimage sites in India, located in the Himalayas.",
+  image: "/images/badrinath.png", // Image path
+  coordinates: { lat: 30.7433, lng: 79.4930 } // Latitude and Longitude
+},
+{
+  name: "Dwarka",
+  location: "Dwarka, Gujarat",
+  openingTiming: "6:00 AM - 1:00 PM, 5:00 PM - 9:30 PM",
+  closingTiming: "N/A",
+  importantDates: ["Janmashtami", "Rukmini Vivah"],
+  prashad: "Chana Dal, Rice",
+  establishment: "Second Char Dham",
+  keyInformation: "Dwarka is known for its association with Lord Krishna and the town of Dwarka.",
+  image: "/images/dwarka.png", // Image path
+  coordinates: { lat: 22.2444, lng: 68.9685 } // Latitude and Longitude
+},
+{
+  name: "Jagannath",
+  location: "Puri, Odisha",
+  openingTiming: "5:00 AM - 11:00 PM",
+  closingTiming: "N/A",
+  importantDates: ["Rath Yatra", "Snana Yatra"],
+  prashad: "Mahaprasad",
+  establishment: "Third Char Dham",
+  keyInformation: "Jagannath Temple in Puri is famous for its annual Rath Yatra and is a significant pilgrimage site.",
+  image: "/images/jagannath.png", // Image path
+  coordinates: { lat: 19.8135, lng: 85.8312 } // Latitude and Longitude
+},
+{
+  name: "Rameswaram",
+  location: "Rameswaram, Tamil Nadu",
+  openingTiming: "5:00 AM - 1:00 PM, 3:00 PM - 9:00 PM",
+  closingTiming: "N/A",
+  importantDates: ["Rama Navami", "Maha Shivaratri"],
+  prashad: "Panchamirtham",
+  establishment: "Fourth Char Dham",
+  keyInformation: "Rameswaram is located in Rameswaram and is linked to the epic Ramayana.",
+  image: "/images/rameswaram.png", // Image path
+  coordinates: { lat: 9.2881, lng: 79.3129 } // Latitude and Longitude
+}
 ];
 
-
-// Slick Carousel settings
-const sliderSettings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ],
-};
-
-const TempleSlider = () => {
-  return (
-    <section className="py-16    ">
-      <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-12 text-center">12 JYOTIRLINGAS</h1>
-        <Slider {...sliderSettings}>
-          {temples.map((temple, index) => (
-            <TempleCard refId={index} key={index} temple={temple} />
-          ))}
-        </Slider>
-      </div>
-    </section>
-  );
-};
-
-export default TempleSlider;
+export default temples;

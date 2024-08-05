@@ -17,6 +17,7 @@ export const charDham = [
     establishment: "Ancient Temple",
     keyInformation: "Badrinath is dedicated to Lord Vishnu and is situated in the backdrop of the Neelkanth Peak.",
     image: "/images/badrinath.jpg", // Update to your image path
+    coordinates: { lat: 30.7433, lng: 79.4930 }
   },
   {
     name: "Dwarka",
@@ -28,6 +29,7 @@ export const charDham = [
     establishment: "Ancient Temple",
     keyInformation: "Dwarka is dedicated to Lord Krishna and is one of the seven Moksha-puris (places of liberation).",
     image: "/images/Dwarka.jpg", // Update to your image path
+    coordinates: { lat: 22.2444, lng: 68.9685 }
   },
   {
     name: "Puri",
@@ -39,6 +41,7 @@ export const charDham = [
     establishment: "Ancient Temple",
     keyInformation: "Puri is dedicated to Lord Jagannath; famous for the Jagannath Rath Yatra.",
     image: "/images/jagannath.jpg", // Update to your image path
+    coordinates: { lat: 19.8135, lng: 85.8312 }
   },
   {
     name: "Rameswaram",
@@ -50,6 +53,7 @@ export const charDham = [
     establishment: "Ancient Temple",
     keyInformation: "Rameswaram is dedicated to Lord Shiva and is linked to the epic Ramayana.",
     image: "/images/rameshwardham.jpg", // Update to your image path
+    coordinates: { lat: 9.2881, lng: 79.3129 }
   }
 ];
 

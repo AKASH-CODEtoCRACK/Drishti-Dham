@@ -1,11 +1,9 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// const SearchForm = () => (
+
   
 //   <form className="text-orange-800 w-full flex justify-center items-center rounded-xl overflow-hidden mx-auto bg-white shadow-md">
 //   <input
