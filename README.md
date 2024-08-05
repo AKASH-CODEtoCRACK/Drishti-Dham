@@ -1,3 +1,26 @@
+**Project Title** → **Drishti Dham**
+**VIRTUAL VISIT TO INDIAN PILGRIMAGE**:
+This project help to get information of temple along with it's map direction
+
+![Screenshot (163)](https://github.com/user-attachments/assets/56bad420-3a2b-4302-8ed5-f15cc41dfd94)
+
+**Content:**
+This project contain the information of 12 jyotirlinga and chhar dham.
+This prokect show :
+Name of temple, 
+location,
+Opening and closing time,
+Important Dates,
+Prashad for that templs,
+Location on map
+
+**content souce:**
+Temple information are taken by chatGpt and images are taken from various online sources 
+
+**Tech stack:**
+This is a react based project in which Tailwind-css are used for styling and typescript for component creation.
+
+**This is made for the IBM virtual Internship project **
 This is jsut for assesment of internship not for more then that but with this I had gained lot of practice with useing of components and routing in react and many more concept with this assesment .
 ** STEPS TO RUN THIS ASSESMENT PROJECT IN YOUR LOCAL MACHINE **
 STEP1: Clone this repository in your system
