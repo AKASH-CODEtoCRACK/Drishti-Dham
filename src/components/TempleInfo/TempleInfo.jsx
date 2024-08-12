@@ -3,17 +3,17 @@ import React, { useEffect, useRef } from "react";
 import { useParams } from "react-router-dom";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import { temples } from "../TempleSlider/TempleSlider";
-import { charDham } from "../ChaarDham/ChaarDham";
+// import { temples } from "../TempleSlider/TempleSlider";
+// import { charDham } from "../ChaarDham/ChaarDham";
 import L from 'leaflet';
-
+import { Jyotirlingas, charDham } from "../../data/temples";
 const TempleInfo = () => {
   const params = useParams();
   const { templeId, Id } = params;
   let temple = "";
 
   if (!Id) {
-    temple = temples[templeId];
+    temple = Jyotirlingas[templeId];
   } else {
     temple = charDham[Id - 1];
   }

@@ -4,58 +4,7 @@ import PropTypes from "prop-types";
 import { faLandmark } from "@fortawesome/free-solid-svg-icons"; // Use an appropriate icon
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-
-// Char Dham data
-export const charDham = [
-  {
-    name: "Badrinath",
-    location: "Chamoli, Uttarakhand",
-    openingTiming: "4:00 AM - 9:00 PM",
-    closingTiming: "N/A",
-    importantDates: ["Badrinath Temple Opening", "Badrinath Temple Closing"],
-    prashad: "Peda, Milk",
-    establishment: "Ancient Temple",
-    keyInformation: "Badrinath is dedicated to Lord Vishnu and is situated in the backdrop of the Neelkanth Peak.",
-    image: "/images/badrinath.jpg", // Update to your image path
-    coordinates: { lat: 30.7433, lng: 79.4930 }
-  },
-  {
-    name: "Dwarka",
-    location: "Dwarka, Gujarat",
-    openingTiming: "6:00 AM - 8:00 PM",
-    closingTiming: "N/A",
-    importantDates: ["Dwarka Festival", "Janmashtami"],
-    prashad: "Ladoo, Rice",
-    establishment: "Ancient Temple",
-    keyInformation: "Dwarka is dedicated to Lord Krishna and is one of the seven Moksha-puris (places of liberation).",
-    image: "/images/Dwarka.jpg", // Update to your image path
-    coordinates: { lat: 22.2444, lng: 68.9685 }
-  },
-  {
-    name: "Puri",
-    location: "Puri, Odisha",
-    openingTiming: "5:00 AM - 10:00 PM",
-    closingTiming: "N/A",
-    importantDates: ["Jagannath Rath Yatra", "Jagannath Temple Opening"],
-    prashad: "Mahaprasad",
-    establishment: "Ancient Temple",
-    keyInformation: "Puri is dedicated to Lord Jagannath; famous for the Jagannath Rath Yatra.",
-    image: "/images/jagannath.jpg", // Update to your image path
-    coordinates: { lat: 19.8135, lng: 85.8312 }
-  },
-  {
-    name: "Rameswaram",
-    location: "Rameswaram, Tamil Nadu",
-    openingTiming: "5:00 AM - 8:00 PM",
-    closingTiming: "N/A",
-    importantDates: ["Rama Navami", "Maha Shivaratri"],
-    prashad: "Panchamirtham",
-    establishment: "Ancient Temple",
-    keyInformation: "Rameswaram is dedicated to Lord Shiva and is linked to the epic Ramayana.",
-    image: "/images/rameshwardham.jpg", // Update to your image path
-    coordinates: { lat: 9.2881, lng: 79.3129 }
-  }
-];
+import { charDham } from "../../data/temples";
 
 
 

@@ -1,4 +1,4 @@
- const temples = [
+ const Jyotirlingas =  [
   {
     name: "Somnath",
     location: "Prabhas Patan, Saurashtra, Gujarat",
@@ -68,7 +68,7 @@
     prashad: "Ladoo, Rice",
     establishment: "Sixth Jyotirlinga",
     keyInformation: "Baidyanath is known for its ancient temples and is considered a significant pilgrimage site.",
-    image: "/images/baidyanath.png", // Image path
+    image: "/images/vaidyannath.png", // Image path
     coordinates: { lat: 24.4811, lng: 86.6995 } // Latitude and Longitude
   },
   {
@@ -79,8 +79,8 @@
     importantDates: ["Maha Shivaratri", "Ganga Aarti"],
     prashad: "Peda, Milk",
     establishment: "Seventh Jyotirlinga",
-    keyInformation: "Kashi Vishwanath is located in Varanasi, one of the oldest cities in the world.",
-    image: "/images/kashi-vishwanath.png", // Image path
+    keyInformation: "kashi Vishwanath is located in Varanasi, one of the oldest cities in the world.",
+    image: "/images/kashivish.jpeg", // Image path
     coordinates: { lat: 25.3109, lng: 83.0104 } // Latitude and Longitude
   },
   {
@@ -128,7 +128,7 @@
     prashad: "Ladoo, Milk",
     establishment: "Eleventh Jyotirlinga",
     keyInformation: "Aundha Nagnath is situated in Maharashtra and is a revered Jyotirlinga shrine.",
-    image: "/images/aundha-nagnath.png", // Image path
+    image: "/images/AundhaNagnath.jpeg", // Image path
     coordinates: { lat: 19.5820, lng: 77.1756 } // Latitude and Longitude
   },
   {
@@ -142,55 +142,56 @@
     keyInformation: "Triambakeshwar is located near Nashik and is a significant pilgrimage site during Kumbh Mela.",
     image: "/images/triambakeshwar.png", // Image path
     coordinates: { lat: 19.9434, lng: 73.5255 } // Latitude and Longitude
+  }
+];
+const charDham = [
+  {
+    name: "Badrinath",
+    location: "Chamoli, Uttarakhand",
+    openingTiming: "4:00 AM - 9:00 PM",
+    closingTiming: "N/A",
+    importantDates: ["Badrinath Temple Opening", "Badrinath Temple Closing"],
+    prashad: "Peda, Milk",
+    establishment: "Ancient Temple",
+    keyInformation: "Badrinath is dedicated to Lord Vishnu and is situated in the backdrop of the Neelkanth Peak.",
+    image: "/images/badrinath.jpg", // Update to your image path
+    coordinates: { lat: 30.7433, lng: 79.4930 }
   },
   {
-  name: "Badrinath",
-  location: "Badrinath, Uttarakhand",
-  openingTiming: "4:30 AM - 9:00 PM",
-  closingTiming: "N/A",
-  importantDates: ["Badrinath Yatra", "Maha Shivaratri"],
-  prashad: "Kesar Bhog, Tulsi",
-  establishment: "First Char Dham",
-  keyInformation: "Badrinath is one of the most important pilgrimage sites in India, located in the Himalayas.",
-  image: "/images/badrinath.png", // Image path
-  coordinates: { lat: 30.7433, lng: 79.4930 } // Latitude and Longitude
-},
-{
-  name: "Dwarka",
-  location: "Dwarka, Gujarat",
-  openingTiming: "6:00 AM - 1:00 PM, 5:00 PM - 9:30 PM",
-  closingTiming: "N/A",
-  importantDates: ["Janmashtami", "Rukmini Vivah"],
-  prashad: "Chana Dal, Rice",
-  establishment: "Second Char Dham",
-  keyInformation: "Dwarka is known for its association with Lord Krishna and the town of Dwarka.",
-  image: "/images/dwarka.png", // Image path
-  coordinates: { lat: 22.2444, lng: 68.9685 } // Latitude and Longitude
-},
-{
-  name: "Jagannath",
-  location: "Puri, Odisha",
-  openingTiming: "5:00 AM - 11:00 PM",
-  closingTiming: "N/A",
-  importantDates: ["Rath Yatra", "Snana Yatra"],
-  prashad: "Mahaprasad",
-  establishment: "Third Char Dham",
-  keyInformation: "Jagannath Temple in Puri is famous for its annual Rath Yatra and is a significant pilgrimage site.",
-  image: "/images/jagannath.png", // Image path
-  coordinates: { lat: 19.8135, lng: 85.8312 } // Latitude and Longitude
-},
-{
-  name: "Rameswaram",
-  location: "Rameswaram, Tamil Nadu",
-  openingTiming: "5:00 AM - 1:00 PM, 3:00 PM - 9:00 PM",
-  closingTiming: "N/A",
-  importantDates: ["Rama Navami", "Maha Shivaratri"],
-  prashad: "Panchamirtham",
-  establishment: "Fourth Char Dham",
-  keyInformation: "Rameswaram is located in Rameswaram and is linked to the epic Ramayana.",
-  image: "/images/rameswaram.png", // Image path
-  coordinates: { lat: 9.2881, lng: 79.3129 } // Latitude and Longitude
-}
+    name: "Dwarka",
+    location: "Dwarka, Gujarat",
+    openingTiming: "6:00 AM - 8:00 PM",
+    closingTiming: "N/A",
+    importantDates: ["Dwarka Festival", "Janmashtami"],
+    prashad: "Ladoo, Rice",
+    establishment: "Ancient Temple",
+    keyInformation: "Dwarka is dedicated to Lord Krishna and is one of the seven Moksha-puris (places of liberation).",
+    image: "/images/Dwarka.jpg", // Update to your image path
+    coordinates: { lat: 22.2444, lng: 68.9685 }
+  },
+  {
+    name: "Puri",
+    location: "Puri, Odisha",
+    openingTiming: "5:00 AM - 10:00 PM",
+    closingTiming: "N/A",
+    importantDates: ["Jagannath Rath Yatra", "Jagannath Temple Opening"],
+    prashad: "Mahaprasad",
+    establishment: "Ancient Temple",
+    keyInformation: "Puri is dedicated to Lord Jagannath; famous for the Jagannath Rath Yatra.",
+    image: "/images/jagannath.jpg", // Update to your image path
+    coordinates: { lat: 19.8135, lng: 85.8312 }
+  },
+  {
+    name: "Rameswaram",
+    location: "Rameswaram, Tamil Nadu",
+    openingTiming: "5:00 AM - 8:00 PM",
+    closingTiming: "N/A",
+    importantDates: ["Rama Navami", "Maha Shivaratri"],
+    prashad: "Panchamirtham",
+    establishment: "Ancient Temple",
+    keyInformation: "Rameswaram is dedicated to Lord Shiva and is linked to the epic Ramayana.",
+    image: "/images/rameshwardham.jpg", // Update to your image path
+    coordinates: { lat: 9.2881, lng: 79.3129 }
+  }
 ];
-
-export default temples;
+export {Jyotirlingas, charDham} ;
