@@ -5,14 +5,16 @@ export default function Footer() {
         <footer className="bg-red-950 border-y">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
-                    <div className="mb-6 md:mb-0">
+                    <div className="flex items-center mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
                             <img
                                 src="DrishtiDhamLogo.png"
                                 className="mr-3 h-16"
                                 alt="Logo"
                             />
+                            
                         </Link>
+                            <h1 className="text-XL text-white"> DRISHTI-DHAM</h1>
                     </div>
                     <div className=" grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
@@ -76,6 +78,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+                <span className="text-sm text-white"> This project is under development</span>
                 <div className=" sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-white sm:text-center">
                         © 2024

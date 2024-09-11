@@ -12,34 +12,6 @@ const teamMembers = [
 		name: "Simran",
 		designation: "Front End Web Developer",
 	},
-	{
-		img: "/TeamImages/partibha.jpg",
-		name: "Partibha",
-		designation: "Front End Web Developer",
-	},
-	{
-		img: "/TeamImages/Anshita (2).jpg",
-		name: "Anshita Singal",
-		designation: "Front End Web Developer",
-	},
-	{
-		img: "/TeamImages/diya.jpg",
-		name: "Diya",
-		designation: "Front End Web Developer",
-	},
-	{
-		img: "/TeamImages/Muskan.png",
-		name: "Muskan",
-		designation: "Front End Web Developer",
-	},
-	
-	{
-		img:"TeamImages/Niketa.jpg",
-		name:"Niketa Kumari",
-		designation:"Web Developer",
-	}
-	
-	
 ];
 
 const TeamMemberItem = ({ member }) => (

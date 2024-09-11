@@ -127,7 +127,9 @@ export default function About() {
                 </div>
             </div>
         <div className=' p-4'>
+          {/* Here our team is called */}
             <Team/>
+            
             </div>
         
         
